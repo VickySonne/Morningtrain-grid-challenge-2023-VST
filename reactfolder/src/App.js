@@ -1,4 +1,4 @@
-import HeaderNav from './components/HeaderNav'
+import HeaderNav from './components/HeaderNav';
 
 function App() {
   return (
@@ -6,6 +6,6 @@ function App() {
       <HeaderNav/>
     </div>
   );
-}
+};
 
 export default App;

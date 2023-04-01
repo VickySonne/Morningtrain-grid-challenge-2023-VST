@@ -4,6 +4,6 @@ const NavMobile = () => {
             
         </nav>
     );
-}
+};
  
 export default NavMobile;
