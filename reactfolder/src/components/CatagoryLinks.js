@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom'
+
 const CatagoryLinks = () => {
     return (
-        <ul>
-            <li>Animals</li>
-            <li>Flowers</li>
-            <li>Interior Design</li>
-        </ul>
+        <nav>
+            <Link to="/Animals">Animals</Link>
+            <Link  to="/Flowers">Flowers</Link>
+            <Link to="/InteriorDesign">Interior Design</Link>
+        </nav>
     );
 }
  

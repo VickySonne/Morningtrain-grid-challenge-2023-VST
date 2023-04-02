@@ -13,7 +13,7 @@ function App() {
 
           <Routes>
             <Route path="/" element={<FrontPage />} />
-            <Route path="/GridPage" element={<GridPage />} />
+            <Route path="/Animals" element={<GridPage />} />
           </Routes>
           
           <FooterBar/>
