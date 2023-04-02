@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import HeaderNav from './components/HeaderNav';
 import FooterBar from './components/FooterBar';
 import FrontPage from './pages/FrontPage';
-import GridPage from './pages/GridPage';
+import AnimalsGrid from './pages/AnimalsGrid';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
 
           <Routes>
             <Route path="/" element={<FrontPage />} />
-            <Route path="/Animals" element={<GridPage />} />
+            <Route path="/Animals" element={<AnimalsGrid />} />
           </Routes>
           
           <FooterBar/>
