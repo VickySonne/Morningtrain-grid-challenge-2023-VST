@@ -1,0 +1,33 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100vh;
+    width: 100%;
+    
+    header {
+        background-color: blue;
+
+        .header-content{
+            display: flex;
+        }
+    }
+
+    main {
+        background-color: red;
+    }
+
+    footer{
+        height: 3rem;
+        background-color: deeppink;
+    }
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.frontpage-main-styling{
+    flex: 1;
+}

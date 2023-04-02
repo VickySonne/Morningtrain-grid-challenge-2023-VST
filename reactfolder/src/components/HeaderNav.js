@@ -1,13 +1,13 @@
-import NavMenu from './NavMenu';
-import NavMobile from './NavMobile';
+import CatagoryMenu from './CatagoryMenu';
 
 const HeaderNav = () => {
     return (
         <header>
-            <p>Forside</p>
-            <h2>Vicky Sonne Thomsen</h2>
-            <NavMenu/>
-            <NavMobile/>
+            <div className="header-content container">
+                <p>Forside</p>
+                <h2>Vicky Sonne Thomsen</h2>
+                <CatagoryMenu />
+            </div>
         </header>
     );
 };

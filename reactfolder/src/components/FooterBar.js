@@ -1,9 +1,11 @@
 const FooterBar = () => {
     return (
         <footer>
-            <p>Morningtrain Grid challenge 2023</p>
+            <div className="container">
+                <p>Morningtrain Grid challenge 2023</p>
+            </div>
         </footer>
     );
-}
+};
  
 export default FooterBar;
