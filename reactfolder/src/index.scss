@@ -13,10 +13,6 @@
         }
     }
 
-    main {
-        background-color: red;
-    }
-
     footer{
         height: 3rem;
         background-color: deeppink;
@@ -30,4 +26,17 @@
 
 .frontpage-main-styling{
     flex: 1;
+
+    img{
+        transition: 0.3s;
+        object-fit: cover;
+        object-position: center;
+        position: fixed;
+        z-index: -1;
+        width: 100%;
+        height: auto;
+    }
+
+    
 }
+
