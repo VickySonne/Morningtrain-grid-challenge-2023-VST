@@ -1,3 +1,5 @@
+import DisplayButtons from "../components/DisplayButtons";
+
 import ImageComp from "../components/ImageComp";
 import Abe from "../images/animals/abe.jpg";
 import Egern from "../images/animals/egern.jpg";
@@ -11,11 +13,14 @@ import ToElefanter from "../images/animals/toelefanter.jpg";
 import ToFugle from "../images/animals/tofugle.jpg";
 
 const AnimalsGrid = () => {
-
     return (
         <main>
             <div className="container">
-                <h3>Animals</h3>
+                <div>
+                    <h3>Animals</h3>
+                    <DisplayButtons />
+                </div>
+                
                 <ImageComp array={[
                             {id:1, src:Abe, title:"Pippis abe på en sten", owner:"Nils Söderman", alt:"En grå abe der sidder på en sten"},
                             {id:2, src:Egern, title:"Egern på et hegn", owner:"Bruno Guerrero", alt:"Brunt egern på et hegn"},

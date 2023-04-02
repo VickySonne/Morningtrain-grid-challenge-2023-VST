@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+
 import CatagoryMenu from './CatagoryMenu';
 
 const HeaderNav = () => {
@@ -6,7 +7,7 @@ const HeaderNav = () => {
         <header>
             <div className="header-content container">
                 <Link to="/">Forside</Link>
-                <h2>Vicky Sonne Thomsen</h2>
+                <h2 className="header-name" >Vicky Sonne Thomsen</h2>
                 <CatagoryMenu />
             </div>
         </header>

@@ -1,0 +1,80 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+.app header {
+  background-color: beige;
+  box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.app header .header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem auto;
+}
+.app header .header-content .header-name {
+  display: none;
+}
+.app header .dropdown-icon {
+  display: flex;
+  align-items: center;
+}
+.app footer {
+  height: 3rem;
+  background-color: beige;
+  box-shadow: 0px -2px 5px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.frontpage-main-styling {
+  flex: 1;
+  display: flex;
+}
+.frontpage-main-styling img {
+  transition: 0.3s;
+  object-fit: cover;
+  object-position: center;
+  position: fixed;
+  z-index: -1;
+  width: auto;
+  height: 100%;
+}
+.frontpage-main-styling .catagory-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.frontpage-main-styling .catagory-buttons > * {
+  color: azure;
+  padding: 0.5rem 2rem;
+  height: fit-content;
+  border: solid 2px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+.frontpage-main-styling .catagory-buttons > *:first-child {
+  background-color: red;
+}
+.frontpage-main-styling .catagory-buttons > *:last-child {
+  background-color: blue;
+}
+.frontpage-main-styling .catagory-buttons > *:nth-child(2) {
+  background-color: deeppink;
+}
+
+@media only screen and (min-width: 490px) {
+  .frontpage-main-styling .catagory-buttons {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}/*# sourceMappingURL=index.css.map */
