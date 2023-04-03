@@ -16,12 +16,12 @@ const CatagoryMenu = () => {
     const closeDropdown = () => setOpen(false);
     
     return (
-        <nav>
+        <div className="dropdown">
             <p className="dropdown-icon">
                 Kategorier {open ? dropdownCloseIcon : dropdownIcon}
             </p>
             {open && <CatagoryLinks isMobile={true} closeDropdown={closeDropdown}/>}
-        </nav>
+        </div>
     );
 };
  

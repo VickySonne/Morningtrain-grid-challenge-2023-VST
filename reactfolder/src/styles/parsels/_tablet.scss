@@ -1,9 +1,21 @@
 @media only screen and (min-width: 768px) {
-    .frontpage-main-styling{
-    
-        img{
-            width: 100%;
-            height: auto;
+
+    .app{
+
+        header{
+            
+            .dropdown-menu{            
+                width: 35%;
+            }
         }
+        
+    }
+
+    .container{
+        max-width: 70%;
+    }
+
+    .header-name{
+        display: block
     }
 }

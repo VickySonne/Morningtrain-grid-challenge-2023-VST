@@ -1,3 +1,16 @@
 @media only screen and (min-width: 1024px) {
+    .app{
+
+        header{
+            
+            .dropdown-menu{            
+                width: 35%;
+            }
+        }
+        
+    }
     
+    .container{
+        max-width: 60%;
+    }
 }

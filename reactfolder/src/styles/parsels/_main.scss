@@ -2,6 +2,11 @@
 @use '../variables/effects' as e;
 @use '../variables/fonts' as f;
 
+h2{
+    font-size: f.$font-size-p;
+    font-family: f.$font-Lucinda;
+}
+
 h3{
     font-size: f.$font-size-heading;
     font-family: f.$font-Lucinda;
@@ -25,22 +30,40 @@ p{
     header {
         background-color: c.$color-beige;
         box-shadow: e.$shadow-down;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
 
         .header-content{
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin: 0.5rem auto;
-
-            .header-name{
-                display: none
-            }
         }
 
         .dropdown-icon{
             display: flex;
             align-items: center;
         }
+
+        .dropdown-menu{            
+            position: absolute;
+            background-color: c.$color-beige;
+            top: 3rem;
+            right: 0;
+            width: fit-content;
+            padding: 1rem 2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            width: 50%;
+
+            & > * :hover{
+                color: c.$color-orange;
+            }
+        }
+
+        
     }
 
     footer{
@@ -50,6 +73,10 @@ p{
         display: flex;
         align-items: center;
     }
+}
+
+.header-name{
+    display: none
 }
 
 .container{

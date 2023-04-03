@@ -1,9 +1,24 @@
 @media only screen and (min-width: 480px) {
+    .app{
+
+        header{
+            
+            .dropdown-menu{            
+                width: 40%;
+            }
+        }
+        
+    }
+    
     .frontpage-main-styling{
 
         .catagory-buttons{
             flex-direction: row;
             align-items: flex-end;
         }
+    }
+
+    .container{
+        max-width: 80%;
     }
 }
