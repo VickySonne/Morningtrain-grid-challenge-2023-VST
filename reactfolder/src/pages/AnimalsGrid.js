@@ -17,7 +17,7 @@ const AnimalsGrid = () => {
         <main>
             <div className="container">
                 <div>
-                    <h3>Animals</h3>
+                    <h3>Dyr</h3>
                     <DisplayButtons />
                 </div>
                 

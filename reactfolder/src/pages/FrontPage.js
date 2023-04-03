@@ -29,9 +29,9 @@ const FrontPage = () => {
         <main className="frontpage-main-styling">
             <img id="image" src={Elefant}/>
             <div className="container catagory-buttons">
-                <Link>Animals</Link>
-                <Link>Flowers</Link>
-                <Link>Interior Design</Link>
+                <Link><p>Dyr</p></Link>
+                <Link><p>Blomster</p></Link>
+                <Link><p>Indretning</p></Link>
             </div>
         </main>
     );

@@ -17,9 +17,9 @@ const CatagoryMenu = () => {
     
     return (
         <nav>
-            <div className="dropdown-icon">
+            <p className="dropdown-icon">
                 Kategorier {open ? dropdownCloseIcon : dropdownIcon}
-            </div>
+            </p>
             {open && <CatagoryLinks isMobile={true} closeDropdown={closeDropdown}/>}
         </nav>
     );

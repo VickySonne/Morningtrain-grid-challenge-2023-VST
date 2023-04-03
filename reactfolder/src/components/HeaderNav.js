@@ -6,7 +6,7 @@ const HeaderNav = () => {
     return (
         <header>
             <div className="header-content container">
-                <Link to="/">Forside</Link>
+                <Link to="/"><p>Forside</p></Link>
                 <h2 className="header-name" >Vicky Sonne Thomsen</h2>
                 <CatagoryMenu />
             </div>
