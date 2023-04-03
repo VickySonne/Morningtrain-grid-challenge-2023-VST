@@ -39,6 +39,10 @@ p{
             justify-content: space-between;
             align-items: center;
             margin: 0.5rem auto;
+
+            .frontpage-button:hover{
+                color: c.$color-orange;
+            }
         }
 
         .dropdown-icon{
