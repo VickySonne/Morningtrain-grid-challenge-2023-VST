@@ -14,9 +14,9 @@ import ToFugle from "../images/animals/tofugle.jpg";
 
 const AnimalsGrid = () => {
     return (
-        <main>
+        <main className="gridpages-main-content">
             <div className="container">
-                <div>
+                <div className="grid-heading-container">
                     <h3>Dyr</h3>
                     <DisplayButtons />
                 </div>

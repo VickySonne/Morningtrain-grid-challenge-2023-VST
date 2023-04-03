@@ -1,0 +1,43 @@
+@use '../variables/colors' as c;
+@use '../variables/effects' as e;
+
+// Main styling for gridpages
+
+.gridpages-main-content{
+    margin-top: 4rem;
+    
+    .container{
+
+        .grid-heading-container{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.display-buttons{
+    display: none;
+}
+
+li{
+    list-style: none;
+}
+
+// Styling for liststyle display of images
+
+.image-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .image-title{
+        display: none;
+    }
+    
+    .image-owner{
+        display: none;
+    }
+    
+}
+

@@ -18,4 +18,27 @@
     .header-name{
         display: block
     }
+
+    .display-buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    // styling for grid style display of images
+
+    .image-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        li{
+            img{
+                max-height: 100%;
+                max-width: 100%;
+                object-fit: cover;
+                object-position: center;
+                display: block;
+            }
+        }
+    }
 }
