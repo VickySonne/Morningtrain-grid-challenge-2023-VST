@@ -1,6 +1,6 @@
 import DisplayButtons from "../components/DisplayButtons";
-
 import ImageComp from "../components/ImageComp";
+
 import Abe from "../images/animals/abe.jpg";
 import Egern from "../images/animals/egern.jpg";
 import Elefant from "../images/animals/elefant.jpg";

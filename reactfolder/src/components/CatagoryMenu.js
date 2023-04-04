@@ -9,15 +9,15 @@ const CatagoryMenu = () => {
     
     const [open, setOpen] = useState(false);
 
-    const dropdownIcon = <IoMdArrowDropdown className="dropdown-icon" size="2em" color="black" onClick={() => setOpen(!open)}/>
+    const dropdownIcon = <IoMdArrowDropdown className="dropdown-icon" size="2em" />
 
-    const dropdownCloseIcon = <IoMdArrowDropup className="dropup-icon" size="2em" color="black" onClick={() => setOpen(!open)}/>
+    const dropdownCloseIcon = <IoMdArrowDropup className="dropup-icon" size="2em"  />
 
     const closeDropdown = () => setOpen(false);
     
     return (
         <div className="dropdown">
-            <p className="dropdown-icon">
+            <p className="dropdown-icon orange-hover" onClick={() => setOpen(!open)}>
                 Kategorier {open ? dropdownCloseIcon : dropdownIcon}
             </p>
             {open && <CatagoryLinks isMobile={true} closeDropdown={closeDropdown}/>}
